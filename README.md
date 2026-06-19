@@ -4,15 +4,15 @@ A modern and responsive admin dashboard built with React, Vite, Tailwind CSS, an
 
 ### Desktop Dashboard
 
-![Desktop Dashboard](./screenshots/desktop.png)
+![Desktop Dashboard](./src/screenshots/desktop.png)
 
 ### Analytics Overview
 
-![Analytics](./screenshots/analytics.png)
+![Analytics](./src/screenshots/analytics.png)
 
 ### Mobile View
 
-![Mobile View](./screenshots/mobile.png)
+![Mobile View](./src/screenshots/mobile.png)
 
 ## ✨ Features
 
