@@ -2,6 +2,18 @@
 
 A modern and responsive admin dashboard built with React, Vite, Tailwind CSS, and Recharts. The dashboard features KPI cards, analytics charts, a collapsible sidebar, and a mobile drawer menu with smooth glassmorphism UI.
 
+### Desktop Dashboard
+
+![Desktop Dashboard](./screenshots/desktop.png)
+
+### Analytics Overview
+
+![Analytics](./screenshots/analytics.png)
+
+### Mobile View
+
+![Mobile View](./screenshots/mobile.png)
+
 ## ✨ Features
 
 - 📊 KPI Cards
