@@ -1,16 +1,133 @@
-# React + Vite
+# 🚀 Responsive Dashboard App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive admin dashboard built with React, Vite, Tailwind CSS, and Recharts. The dashboard features KPI cards, analytics charts, a collapsible sidebar, and a mobile drawer menu with smooth glassmorphism UI.
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- 📊 KPI Cards
+- 📈 Revenue Line Chart
+- 📉 Orders Bar Chart
+- 🎨 Glassmorphism UI
+- 📱 Fully Responsive Design
+- 🍔 Mobile Drawer Sidebar
+- 🖥️ Collapsible Desktop Sidebar
+- 🔔 Notification Button
+- ⚙️ Settings Button
+- 👤 User Profile Section
+- ✨ Smooth Hover Animations
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 📱 Responsive Layout
 
-## Expanding the ESLint configuration
+### Mobile
+- Drawer Sidebar
+- Hamburger Menu
+- Single-column Layout
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Tablet
+- Two-column KPI Cards
+- Responsive Charts
+
+### Desktop
+- Fixed Sidebar
+- Four KPI Cards in a Row
+- Multi-column Layout
+
+---
+
+## 🛠️ Tech Stack
+
+- React
+- Vite
+- Tailwind CSS
+- Recharts
+- React Icons
+
+---
+
+## 📂 Project Structure
+
+```
+src
+│
+├── components
+│   ├── card
+│   │   ├── MetricCard.jsx
+│   │   └── MetricsGrid.jsx
+│   │
+│   ├── charts
+│   │   ├── RevenueChart.jsx
+│   │   └── OrdersChart.jsx
+│   │
+│   └── layout
+│       ├── Sidebar.jsx
+│       ├── MobileDrawer.jsx
+│       └── Header.jsx
+│
+├── data
+│   ├── metrics.js
+│   ├── revenueData.js
+│   └── ordersData.js
+│
+├── pages
+│   └── Dashboard.jsx
+│
+└── App.jsx
+```
+
+---
+
+## ⚙️ Installation
+
+Clone the repository:
+
+```bash
+git clone <repository-url>
+```
+
+Navigate to the project:
+
+```bash
+cd dashboard-app
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run the development server:
+
+```bash
+npm run dev
+```
+
+Build for production:
+
+```bash
+npm run build
+```
+
+---
+
+## 📸 Dashboard Features
+
+- Revenue Metrics
+- User Metrics
+- Orders Metrics
+- Conversion Metrics
+- Revenue Analytics
+- Orders Analytics
+- Glass Effect Components
+- Smooth Sidebar Animation
+- Mobile Drawer Navigation
+
+---
+
+## 👩‍💻 Author
+
+**Prachi Gupta**
+
+Built as a responsive dashboard assignment using React and Tailwind CSS.
